@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f4efe6;
+  --color-surface: #ece5d8;
+  --color-stone: #e2d8c8;
+  --color-fg: #1c1914;
+  --color-muted: #6b6458;
+  --color-primary: #3d5a45;
+  --color-primary-fg: #f6f1e8;
+  --color-border: #d9d0c2;
+  --color-danger: #8f3d32;
+  --color-ring: #3d5a45;
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --aspect-photo: 4 / 3;
+
+  --shadow-border:
+    0px 0px 0px 1px rgb(28 25 20 / 0.06),
+    0px 1px 2px -1px rgb(28 25 20 / 0.06),
+    0px 2px 4px 0px rgb(61 90 69 / 0.08);
+  --shadow-border-hover:
+    0px 0px 0px 1px rgb(61 90 69 / 0.22),
+    0px 1px 2px -1px rgb(28 25 20 / 0.08),
+    0px 8px 18px -8px rgb(61 90 69 / 0.28);
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-micro: 80ms;
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+  --motion-slow: 400ms;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-fg);
+    min-height: 100svh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  img {
+    outline: 1px solid rgb(28 25 20 / 0.08);
+    outline-offset: -1px;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-primary-fg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

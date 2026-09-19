@@ -1,0 +1,64 @@
+{
+  "printer": "Creality K1C",
+  "build_volume_mm": [
+    220,
+    220,
+    250
+  ],
+  "nozzle_mm": 0.4,
+  "filament": "PETG",
+  "part": "Slowform Bloom slow-feed bowl",
+  "orientation": "Floor on the bed, petals up. No supports.",
+  "process": {
+    "layer_height_mm": 0.2,
+    "first_layer_height_mm": 0.24,
+    "line_width_mm": 0.42,
+    "wall_loops": 4,
+    "top_shell_layers": 5,
+    "bottom_shell_layers": 6,
+    "infill_percent": 25,
+    "infill_pattern": "gyroid",
+    "brim_type": "outer_only",
+    "brim_width_mm": 5,
+    "supports": false,
+    "ironing": false,
+    "fuzzy_skin": false
+  },
+  "temperatures": {
+    "nozzle_C": 250,
+    "nozzle_first_layer_C": 255,
+    "bed_C": 75,
+    "bed_first_layer_C": 80,
+    "chamber": "Door closed. Leave the top glass off or cracked so PETG does not heat-creep."
+  },
+  "speeds_mm_s": {
+    "first_layer": 40,
+    "outer_wall": 80,
+    "inner_wall": 140,
+    "infill": 160,
+    "travel": 300,
+    "max_volumetric_mm3_s": 12
+  },
+  "cooling": {
+    "fan_percent": 40,
+    "min_layer_time_s": 10,
+    "fan_off_first_layers": 3
+  },
+  "retraction": {
+    "length_mm": 0.8,
+    "speed_mm_s": 40,
+    "z_hop_mm": 0.4,
+    "pressure_advance": 0.05
+  },
+  "bed": "Textured PEI. Glue stick or a thin PETG slurry. Wait for a full cooldown before removing.",
+  "estimate": {
+    "filament_g": 296.0,
+    "print_hours": "about 7\u20139 at these speeds"
+  },
+  "notes": [
+    "STL units are millimetres. Do not scale in the slicer.",
+    "Max diameter is under 196 mm so it fits a 220 mm K1C bed with a 5 mm brim.",
+    "The 8-inch Slowform nest is 203 mm; this bowl sits in with clearance.",
+    "PETG likes a hot first layer and a dry spool (50\u201355 C for 4\u20136 h if it has been open)."
+  ]
+}

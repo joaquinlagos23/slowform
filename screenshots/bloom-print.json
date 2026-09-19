@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/shop/bloom",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Slowform",
+      "hasCanvas": false,
+      "bodyTextLen": 1295,
+      "bodyTextHash": "9517fbcf7ee6ca561a7f58de6e05d0b4509dc9cbd0ffa8bb48e61302d0ae2916",
+      "bodyTextPrefix": "Slowform Shop Studio Guide Story SHOP/BOWL BOWL Bloom Petal wall",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/bloom-print.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Slowform",
+      "hasCanvas": false,
+      "bodyTextLen": 1271,
+      "bodyTextHash": "577045b1bf4b26fe5ab4ff921c79e091da2cab2256d573707b491451b31801c9",
+      "bodyTextPrefix": "Slowform SHOP/BOWL BOWL Bloom Petal walls that fan kibble outwar",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/bloom-print-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/bloom-print.json"
+}

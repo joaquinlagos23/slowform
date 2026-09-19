@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Slowform",
+      "hasCanvas": false,
+      "bodyTextLen": 1868,
+      "bodyTextHash": "ffa9f0b389e053f62e3009ba2641f64af0e7c1dce740fbb8931c8a550026f93e",
+      "bodyTextPrefix": "Slowform Shop Studio Guide Story SLOW FEED BOWLS · 3D-PRINTED ST",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Slowform",
+      "hasCanvas": false,
+      "bodyTextLen": 1844,
+      "bodyTextHash": "6193799c26025e927536460ba602decbe9e19e22219769cd7d12c896d387cac5",
+      "bodyTextPrefix": "Slowform SLOW FEED BOWLS · 3D-PRINTED STANDS A slower bowl. A st",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
